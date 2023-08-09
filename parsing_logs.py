@@ -1,6 +1,6 @@
 import re
 from collections import Counter
-logfile="prod_404_api.neovee_log.log"
+logfile="****" #please put your own log file name 
 logreg="\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}"
 with open(logfile) as f:
     log = f.read()
